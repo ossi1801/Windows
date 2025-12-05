@@ -57,4 +57,4 @@ REM taskkill /f /im MSASCuiL.exe
 
 cls
 ::cmd as maximized
-cmd.exe mode 1000,1000 /max
+cmd.exe /c "mode 1000,1000 & cls & cd /d "%USERPROFILE%" & start /max cmd.exe"
